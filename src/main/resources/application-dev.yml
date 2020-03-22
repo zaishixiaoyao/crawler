@@ -1,0 +1,26 @@
+#数据源
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/bsbdj?useUnicode=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    tomcat:
+      init-s-q-l: SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci
+
+  thymeleaf:
+    #取消thymeleaf缓存，让页面热部署
+    cache: false
+
+#日志
+logging:
+  level:
+    #将mapper包下的日志最低级别调整为debug,输出SQL语句
+    com.itlaoqi.bsbdj.mapper: debug
+  file: d:/logs/bsbdj.log
+
+#端口号
+server:
+  port: 80
+
+

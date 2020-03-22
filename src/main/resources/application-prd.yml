@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://193.81.32.32:3306/bsbdj?useUnicode=true
+    username: root
+    password: nicai
+    tomcat:
+      init-s-q-l: SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci
+
+  thymeleaf:
+    #取消thymeleaf缓存，让页面热部署
+    cache: true
+
+
+logging:
+  file: /usr/local/logs/bsbdj.log
+
+
+server:
+  port: 9012
+
