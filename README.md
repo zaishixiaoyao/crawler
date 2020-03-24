@@ -36,7 +36,7 @@
 
 **数据库建模**：
 
-一共8张表，这里只是列举了其中一张表，表的数据都存在于 ~/resource/sql~ 文件夹中
+一共8张表，这里只是列举了其中一张表，表的数据都存在于 ```/resource/sql``` 文件夹中
 
 
 
@@ -44,4 +44,3 @@
 **后台界面**：
 
 ![Aaron Swartz](https://raw.githubusercontent.com/zaishixiaoyao/MarkdownPhotos/master/%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E7%95%8C%E9%9D%A2.png)
-
